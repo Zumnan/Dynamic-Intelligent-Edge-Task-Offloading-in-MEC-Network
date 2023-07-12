@@ -1,0 +1,2 @@
+Cell Identity(CI),User Agent,Downlink traffic,Location Area Code(LAC),Duration,Start Time,Radio Access Type(RAT),End Time,Uplink traffic,Destination IP,URL,Source IP,Offloading Decision,Latency,Throughput
+21971,,3204,43042,0,2015-08-08 23:18:50.974090,1,2015-08-08 23:20:07.960584,1435,210.21.196.6,view.inews.qq.com,172.21.50.247,Edge Cloud,81.986494,56.58249028187497
