@@ -7,7 +7,7 @@ In recent years, several research efforts have focused on developing intelligent
 One of the key challenges in designing intelligent task offloading strategies is the availability of accurate and real-time information about the network and device conditions. This information is crucial for making informed offloading decisions and ensuring efficient resource utilization. In this context, the use of real-world datasets becomes essential for evaluating the effectiveness of different offloading strategies under realistic network conditions.
 In this paper, we present a comprehensive experiment on dynamic intelligent edge task offloading in a real-world MEC network. Our objective is to evaluate the effectiveness of a proposed offloading strategy using a dataset that captures various network parameters and user behaviors. By conducting this experiment, we aim to contribute to the existing body of knowledge in the field of MEC and shed light on the benefits of dynamic intelligent task offloading.
 
-#Dataset Preprocessing:
+# Dataset Preprocessing:
 
 The first step in the experiment involved dataset preprocessing to ensure data quality and privacy protection. Preprocessing plays a crucial role in preparing the dataset for analysis and modeling. The following steps were performed during dataset preprocessing:
 
@@ -22,7 +22,7 @@ The first step in the experiment involved dataset preprocessing to ensure data q
 By performing these dataset preprocessing steps, we obtained a clean and privacy-protected dataset that was ready for further analysis and modeling.
 
 
-#Feature Selection:
+# Feature Selection:
 Feature selection is a critical step in any machine learning experiment as it directly impacts the performance and interpretability of the models. In the context of task offloading evaluation, specific features were selected from the dataset based on their relevance and potential impact on the offloading decision-making process. The following factors were considered when selecting the features:
 1.	Network Characteristics: Features related to network conditions and characteristics were included to capture the context of the mobile edge computing (MEC) network. These features may include LAC (Location Area Code), CI (Cell Identity), RAT (Radio Access Type), and network traffic information (e.g., downlink traffic, uplink traffic).
 2.	User Behavior: Understanding user behavior is crucial in making intelligent offloading decisions. Features such as start time, end time, duration, and user agent provide insights into user activities and usage patterns. By considering user behavior, the offloading strategy can adapt to dynamic user demands and preferences.
@@ -32,7 +32,7 @@ The selected features were chosen based on their potential to provide meaningful
 
 
 
-#Task Offloading Strategy:
+# Task Offloading Strategy:
 
 The task offloading strategy implemented in this experiment aims to leverage available information to make intelligent and dynamic decisions on task offloading between mobile devices and the edge cloud. The strategy takes into account various factors, such as network conditions, traffic load, and user behavior, to optimize the performance of the mobile edge computing (MEC) network.
 
@@ -52,7 +52,7 @@ The task offloading strategy is implemented using machine learning techniques an
 
 
 
-#Evaluation Metrics:
+# Evaluation Metrics:
 
 To assess the performance of the task offloading strategy, we employ the following evaluation metrics:
 
@@ -66,7 +66,7 @@ These evaluation metrics allow us to assess the effectiveness of the proposed ta
 
 
 
-#Implementation of the Dynamic Intelligent Edge Task Offloading Algorithm:
+# Implementation of the Dynamic Intelligent Edge Task Offloading Algorithm:
 
 The dynamic intelligent edge task offloading algorithm is implemented to evaluate the effectiveness of offloading decisions between the mobile device and the edge cloud. The algorithm takes into account various factors such as network conditions, traffic load, and user behavior to make intelligent offloading decisions. 
 
@@ -107,18 +107,7 @@ Algorithm 2: Ensemble Model (Random Forest, Gradient Boosting, Support Vector Ma
 
 
 
-#Performance Metrics
 
- Performance Metric   Accuracy  	F1-Score 
-    Subset Dataset      0.94        0.93
-   Random Forest        0.99        0.99 
-   Gradient Boosting    0.98        0.98
-    SVM                 0.82        0.81  
-   Ensemble Model       0.98        0.98
-	      
-   
-    ![image](https://github.com/Zumnan/Dynamic-Intelligent-Edge-Task-Offloading-in-MEC-Network/assets/48983641/040d879a-c17f-411b-a607-d3f150520f60)
- 
       
       	       
       
